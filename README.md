@@ -1,7 +1,5 @@
 # MELNYCHUK-OLEKSII
 NEW
-ssdsdsds
-sdsdsfgfgf
-fgfg
+INITIAL COMIT 18.07.2023 
 
 
