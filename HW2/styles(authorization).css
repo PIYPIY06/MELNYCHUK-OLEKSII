@@ -1,5 +1,5 @@
-h3{
-color:antiquewhite ;
+h3 {
+    color: #faebd7;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     text-align: center;
 }
 
-label { 
+label {
     border: 1px solid #f50909;
     padding: 5px;
     color: #ffffff;

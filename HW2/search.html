@@ -3,108 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ПОИСК Авто </title>
+    <title>ПОИСК Авто</title>
     <link rel="stylesheet" href="./styles(search).css">
 </head>
 <body>
     <form>
-        <label> ВЫБОР ПАРАМЕТРОВ АВТО </label>
-        <p><select name="Тип кузова">
-            
-            <option>Тип кузова</option>
-            <option value="Седан">Седан</option>
-            <option value="Универсал">Универсал</option>
-            <option value="Внедорожник">Внедорожник</option>
-            <option value="Хэтчбек">Хэтчбек</option>
-            <option value="Купе">Купе</option>
+        <p>
+            <label>ВЫБОР ПАРАМЕТРОВ АВТО</label>
+        </p>
+        <p>
+            <select name="Тип кузова">
+                <option>Тип кузова</option>
+                <option value="Седан">Седан</option>
+                <option value="Универсал">Универсал</option>
+                <option value="Внедорожник">Внедорожник</option>
+                <option value="Хэтчбек">Хэтчбек</option>
+                <option value="Купе">Купе</option>
+            </select>
             <button type="submit">Выбрать</button>
-        </select>
-        <button type="submit">Выбрать</button>
-        
-    
-        <p><select name="Марка авто">
-            <option>Марка авто</option>
-            <option value="AUDI">BMW</option>
-            <option value="BMW">Nissan</option>
-            <option value="MERCEDES-BENZ">Renault</option>
-            <option value="SUBARU">Жигули</option>
-            <option value="NISSAN">Toyota</option>
-            <option value="LEXUS">Lamborgini</option>
-            <option value="SCION">Peugeot</option>
-       </select>
-       <button type="submit">Выбрать</button>
+        </p>
+
+        <p>
+            <select name="Марка авто">
+                <option>Марка авто</option>
+                <option value="AUDI">AUDI</option>
+                <option value="BMW">BMW</option>
+                <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+                <option value="SUBARU">SUBARU</option>
+                <option value="NISSAN">NISSAN</option>
+                <option value="LEXUS">LEXUS</option>
+                <option value="SCION">SCION</option>
+            </select>
+            <button type="submit">Выбрать</button>
+        </p>
       
-       <p><select name="Страна производитель">
-         <option>Страна производитель</option>
-         <option value="Япония">Япония</option>
-         <option value="Германия">Германия</option>
-         <option value="Корея">Корея</option>
-         <option value="Великобритания">Великобритания</option>
-         <option value="США">США</option>
-        </select>
-        <button type="submit">Выбрать</button>
+        <p>
+            <select name="Страна производитель">
+                <option>Страна производитель</option>
+                <option value="Япония">Япония</option>
+                <option value="Германия">Германия</option>
+                <option value="Корея">Корея</option>
+                <option value="Великобритания">Великобритания</option>
+                <option value="США">США</option>
+            </select>
+            <button type="submit">Выбрать</button>
+        </p>
         
+        <p>
+            <label>Цена:</label>
+            <input type="number" min="0" max="5000">
+            <button type="submit">Выбрать</button>
+        </p>
         
+        <p>
+            <label>Год выпуска:</label>
+            <input type="number" min="1980" max="2023">
+            <button type="submit">Выбрать</button>
+        </p>
         
-        <label> Цена: </label>
-        <input type="number" min="0" max="5000">
-        <button type="submit">Выбрать</button>
-        
-        <label> Год выпуска: </label>
-        <input type="number" min="1980" max="2023">
-        <button type="submit">Выбрать</button><br>
-        
-        <p><select name="Состояние">
-         <option>Состояние</option>
-         <option value="Новое состояние">Новое состояние</option>
-         <option value="Б/У">Б/У</option>
-         <option value="После ДТП">После ДТП</option>
-         <option value="Под залогом">Под залогом</option>
-        </select>
-       <button type="submit">Выбрать</button>
+        <p>
+            <select name="Состояние">
+                <option>Состояние</option>
+                <option value="Новое состояние">Новое состояние</option>
+                <option value="Поддержанные">Поддержанные</option>
+                <option value="После ДТП">После ДТП</option>
+                <option value="Под залогом">Под залогом</option>
+            </select>
+            <button type="submit">Выбрать</button>
+        </p>
     
-       <p><select name="Вид топлива">
-        <option>Вид топлива</option>
-        <option value="Бензин">Бензин</option>
-        <option value="Дизель">Дизель</option>
-        <option value="Электро">Электро</option>
-       </select>
-      <button type="submit">Выбрать</button>
+        <p>
+            <select name="Вид топлива">
+                <option>Вид топлива</option>
+                <option value="Бензин">Бензин</option>
+                <option value="Дизель">Дизель</option>
+                <option value="Электро">Электро</option>
+            </select>
+            <button type="submit">Выбрать</button>
+        </p>
 
-      <p><select name="Вид коробки передач">
-        <option>Вид коробки передач</option>
-        <option value="Автомат">Автомат</option>
-        <option value="Механическая">Механическая</option>
-        <option value="DSG">DSG</option>
-        <option value="Типтроник">Типтроник</option>
-        <option value="Вариатор">Вариатор</option>
-       </select>
-      <button type="submit">Выбрать</button>
+        <p>
+            <select name="Вид коробки передач">
+                <option>Вид коробки передач</option>
+                <option value="Автомат">Автомат</option>
+                <option value="Механическая">Механическая</option>
+                <option value="DSG">DSG</option>
+                <option value="Типтроник">Типтроник</option>
+                <option value="Вариатор">Вариатор</option>
+            </select>
+            <button type="submit">Выбрать</button>
+        </p>
 
-      <label> Цвет кузова: </label>
-      <input type="color">
-      <button type="submit">Выбрать</button>
+        <p>
+            <label>Цвет кузова:</label>
+            <input type="color">
+            <button type="submit">Выбрать</button>
+        </p>
+           
 
       <br><br>
       <h2> Комфорт </h2>
-
-      <p><label for="checkbox">Премиум аудио</label>
-       <input type="checkbox"><br>
-       <label for="checkbox">Климат контроль</label>
-       <input type="checkbox"><br>
-       <label for="checkbox">Премиум обслуживание</label>
-       <input type="checkbox"><br>
-       <label for="checkbox">Кастомные диски</label>
-       <input type="checkbox"><br>
-       <label for="checkbox">Подогрев сидений</label>
-       <input type="checkbox"><br>
-       <label for="checkbox">Адаптивный круиз контроль </label>
-       <input type="checkbox"><br>
-       <label for="checkbox"> Подогрев руля </label>
-       <input type="checkbox"><br>
-       <label for="checkbox">LED индикаторы поворота</label>
-       <input type="checkbox"><br></p>
-    
-    </form>
+     <p>
+        <label for="premium_audio">Премиум аудио</label>
+        <input type="checkbox" id="premium_audio"><br>
+        <label for="climate_control">Климат контроль</label>
+        <input type="checkbox" id="climate_control"><br>
+        <label for="premium_service">Премиум обслуживание</label>
+        <input type="checkbox" id="premium_service"><br>
+        <label for="custom_wheels">Кастомные диски</label>
+        <input type="checkbox" id="custom_wheels"><br>
+        <label for="heated_seats">Подогрев сидений</label>
+        <input type="checkbox" id="heated_seats"><br>
+        <label for="adaptive_cruise_control">Адаптивный круиз контроль</label>
+        <input type="checkbox" id="adaptive_cruise_control"><br>
+        <label for="heated_steering_wheel">Подогрев руля</label>
+        <input type="checkbox" id="heated_steering_wheel"><br>
+        <label for="led_turn_indicators">LED индикаторы поворота</label>
+        <input type="checkbox" id="led_turn_indicators"><br>
+    </p>
+    <button type="submit">Выбрать</button>
+</form>
 </body>
 </html>
