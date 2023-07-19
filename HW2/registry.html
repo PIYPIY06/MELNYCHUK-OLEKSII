@@ -8,15 +8,18 @@
 </head>
 <body>
     <h3>РЕГИСТРАЦИЯ:</h3>
-    <label>E-MAIL:</label>
-    <input type="email"><br>
+    <form action="https://fom.in.ua/echo" method="POST">
+        <label>E-MAIL:</label>
+        <input type="email" name="email"><br>
 
-    <label>ПАРОЛЬ:</label>
-    <input type="password"><br>
+        <label>ПАРОЛЬ:</label>
+        <input type="password" name="password"><br>
 
-    <label>ПОДТВЕРЖДЕНИЕ ПАРОЛЯ:</label>
-    <input type="password"><br>
+        <label>ПОДТВЕРЖДЕНИЕ ПАРОЛЯ:</label>
+        <input type="password" name="confirm_password"><br>
     
-    <button type="submit"><a href="./authorization.html">Зарегистрироваться</a></button>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
 </body>
 </html>
+

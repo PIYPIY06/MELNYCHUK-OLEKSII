@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles(search).css">
 </head>
 <body>
-    <form>
+    <form action="https://fom.in.ua/echo" method="POST">
         <p>
             <label>ВЫБОР ПАРАМЕТРОВ АВТО</label>
         </p>
@@ -19,8 +19,7 @@
                 <option value="Внедорожник">Внедорожник</option>
                 <option value="Хэтчбек">Хэтчбек</option>
                 <option value="Купе">Купе</option>
-            </select>
-            <button type="submit">Выбрать</button>
+            </select>   
         </p>
 
         <p>
@@ -33,8 +32,7 @@
                 <option value="NISSAN">NISSAN</option>
                 <option value="LEXUS">LEXUS</option>
                 <option value="SCION">SCION</option>
-            </select>
-            <button type="submit">Выбрать</button>
+            </select>    
         </p>
       
         <p>
@@ -45,20 +43,17 @@
                 <option value="Корея">Корея</option>
                 <option value="Великобритания">Великобритания</option>
                 <option value="США">США</option>
-            </select>
-            <button type="submit">Выбрать</button>
+            </select>   
         </p>
         
         <p>
             <label>Цена:</label>
-            <input type="number" min="0" max="5000">
-            <button type="submit">Выбрать</button>
+            <input type="number" min="0" max="5000" name="Цена">  
         </p>
         
         <p>
             <label>Год выпуска:</label>
-            <input type="number" min="1980" max="2023">
-            <button type="submit">Выбрать</button>
+            <input type="number" min="1980" max="2023" name="Год выпуска">
         </p>
         
         <p>
@@ -69,7 +64,6 @@
                 <option value="После ДТП">После ДТП</option>
                 <option value="Под залогом">Под залогом</option>
             </select>
-            <button type="submit">Выбрать</button>
         </p>
     
         <p>
@@ -79,7 +73,6 @@
                 <option value="Дизель">Дизель</option>
                 <option value="Электро">Электро</option>
             </select>
-            <button type="submit">Выбрать</button>
         </p>
 
         <p>
@@ -91,37 +84,35 @@
                 <option value="Типтроник">Типтроник</option>
                 <option value="Вариатор">Вариатор</option>
             </select>
-            <button type="submit">Выбрать</button>
         </p>
 
         <p>
             <label>Цвет кузова:</label>
-            <input type="color">
-            <button type="submit">Выбрать</button>
+            <input type="color" name="Цвет кузова">
         </p>
            
 
-      <br><br>
-      <h2> Комфорт </h2>
-     <p>
-        <label for="premium_audio">Премиум аудио</label>
-        <input type="checkbox" id="premium_audio"><br>
-        <label for="climate_control">Климат контроль</label>
-        <input type="checkbox" id="climate_control"><br>
-        <label for="premium_service">Премиум обслуживание</label>
-        <input type="checkbox" id="premium_service"><br>
-        <label for="custom_wheels">Кастомные диски</label>
-        <input type="checkbox" id="custom_wheels"><br>
-        <label for="heated_seats">Подогрев сидений</label>
-        <input type="checkbox" id="heated_seats"><br>
-        <label for="adaptive_cruise_control">Адаптивный круиз контроль</label>
-        <input type="checkbox" id="adaptive_cruise_control"><br>
-        <label for="heated_steering_wheel">Подогрев руля</label>
-        <input type="checkbox" id="heated_steering_wheel"><br>
-        <label for="led_turn_indicators">LED индикаторы поворота</label>
-        <input type="checkbox" id="led_turn_indicators"><br>
-    </p>
-    <button type="submit">Выбрать</button>
-</form>
+        <br><br>
+        <h2>Комфорт</h2>
+        <p>
+            <label for="premium_audio">Премиум аудио</label>
+            <input type="checkbox" id="premium_audio" name="Премиум аудио"><br>
+            <label for="climate_control">Климат контроль</label>
+            <input type="checkbox" id="climate_control" name="Климат контроль"><br>
+            <label for="premium_service">Премиум обслуживание</label>
+            <input type="checkbox" id="premium_service" name="Премиум обслуживание"><br>
+            <label for="custom_wheels">Кастомные диски</label>
+            <input type="checkbox" id="custom_wheels" name="Кастомные диски"><br>
+            <label for="heated_seats">Подогрев сидений</label>
+            <input type="checkbox" id="heated_seats" name="Подогрев сидений"><br>
+            <label for="adaptive_cruise_control">Адаптивный круиз контроль</label>
+            <input type="checkbox" id="adaptive_cruise_control" name="Адаптивный круиз контроль"><br>
+            <label for="heated_steering_wheel">Подогрев руля</label>
+            <input type="checkbox" id="heated_steering_wheel" name="Подогрев руля"><br>
+            <label for="led_turn_indicators">LED индикаторы поворота</label>
+            <input type="checkbox" id="led_turn_indicators" name="LED индикаторы поворота"><br>
+        </p>
+        <button type="submit">Выбрать</button>
+    </form>
 </body>
 </html>
