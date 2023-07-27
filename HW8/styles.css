@@ -8,18 +8,16 @@
   }
   
   /* BOX-CONTAINER1 */
-  .box-container1,
-  .box-container2,
-  .box-container3
+  .box-container
   {
     width: 1000px;
     background-color: #E6E6E6;
     margin: 50px 50px;
   }
   
-  .clear {
+   .clear {
     clear: both;
-  }
+  } 
   
   .box1 {
     width: 200px;
@@ -35,8 +33,7 @@
     float: right;
   }
   
-  .text1,
-  .text2 {
+  .text{
     width: 200px;
     height: 75px;
     color: #FFF;
@@ -48,29 +45,28 @@
   }
   
   /* BOX-CONTAINER2 */
-  .boxes{
+    .boxes{
    float:right;
+  } 
+   
+  .boxes > div {
+    display: inline-block;
   }
   
-  .box2A {
+  .box2a {
+    width: 100px;
+    height:100px;
+    background-color: #FC8F8F;
+    margin-right: 15px;
+  }
+  .box3{
     width: 100px;
     height:100px;
     background-color: #FC8F8F;
   }
+
   
-  .box3,
-  .box4,
-  .box5 {
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin: 0 15px 0 0;
-  }
-  
-  .text2A,
-  .text3,
-  .text4,
-  .text5 {
+  .text2a{
     width: 100px;
     height: 30px;
     color: #FFF;
@@ -83,45 +79,31 @@
    
 
   /* BOX-CONTAINER3 */
-  .box1C {
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float: left;
-    margin: 0 15px 0 0;
-  }
-  
+  .box1C,
   .box2C {
     width: 200px;
     height: 200px;
     background-color: #FC8F8F;
     float: left;
+    margin-right: 15px;
   }
-  
+
   .boxes2{
     float: right;
-  }
+  } 
+   .boxes2 > div {
+    display:inline-block;
+  } 
 
   .box3C{
     width: 200px;
     height:200px;
     background-color: #FC8F8F;
+    margin-right: 15px;
   }
-  
-  .box4C {
+
+  .box4C{
     width: 200px;
-    height: 200px;
+    height:200px;
     background-color: #FC8F8F;
-  }
-  
-  .text3C,
-  .text4C {
-    width: 100px;
-    height: 75px;
-    color: #FFF;
-    text-align: center;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 63px 0 62px;
   }
