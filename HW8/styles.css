@@ -1,131 +1,141 @@
+/* .maincontainer */
 .maincontainer {
-    width: 1100px;
-    height: 800px;
-    background-color: #C4C4C4;
-    padding-top: 50px;
-    margin: 0 auto; 
-    display: block;
-  }
-  /* BOX-CONTAINER1 */
-  .box-container1 {
-    width: 1000px;
-    height: 200px;
-    background-color: #E6E6E6;
-    margin: 50px 50px 50px 50px;
-  }
-  
-  .box1{
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float: left;
-  }
-  
-  .box2 {
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float:right;
-  }
-  
-  .text1,
-  .text2 {
-    width: 200px;
-    height: 75px;
-    color: #FFF;
-    text-align: center;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 63px 0 62px;
-  }
-  
-  /* BOX-CONTAINER2 */
-  .box-container2 {
-    width: 1000px;
-    height: 200px;
-    background-color: #E6E6E6;
-    margin: 50px 50px 50px 50px;
-  }
-  .box2A {
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    float: right;
-   }
+  width: 1100px;
+  height: 800px;
+  background-color: #C4C4C4;
+  padding-top: 50px;
+  margin: 0 auto; 
+}
 
-  .box3,
-  .box4,
-  .box5{
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    float: right;
-    margin:0 15px 0 0;
-  }
+/* BOX-CONTAINER1 */
+.box-container1 {
+  width: 1000px;
+  background-color: #E6E6E6;
+  margin: 50px 50px;
+}
 
-  .text2A,
-  .text3,
-  .text4,
-  .text5 {
-    width: 100px;
-    height: 37.5px;
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 31px 0px 31.5px;
-  }
- 
-  /* BOX-CONTAINER3 */
-  .box-container3 {
-    width: 1000px;
-    height: 200px;
-    background-color: #E6E6E6;
-    margin: 50px 50px 50px 50px;
-  }
+.clear {
+  clear: both;
+}
 
-  .box1C {
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float:left;
-    margin:0 15px 0 0;
-  }
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: left;
+}
 
-  .box2C {
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float:left;
-    }
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: right;
+}
 
-    .box3C{
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float:right;
-    }
+.text1,
+.text2 {
+  width: 200px;
+  height: 75px;
+  color: #FFF;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 63px 0 62px;
+}
 
-    .box4C {
-    width: 200px;
-    height: 200px;
-    background-color: #FC8F8F;
-    float:right;
-    margin:0 15px;
-    }
+/* BOX-CONTAINER2 */
+.box-container2 {
+  width: 1000px;
+  background-color: #E6E6E6;
+  margin: 50px 50px;
+}
 
-    .text3C,
-    .text4C{   
-        width: 200px;
-        height: 75px;
-        color: #FFF;
-        text-align: center;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        margin: 63px 0 62px;
-    }
+.maincontainer.box-container2.BOXES{
+  float:right;
+}
+
+.box2A {
+  width: 100px;
+  height: 100px;
+  background-color: #FC8F8F;
+  float: right;
+}
+
+.box3,
+.box4,
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: #FC8F8F;
+  float: right;
+  margin: 0 15px 0 0;
+}
+
+.text2A,
+.text3,
+.text4,
+.text5 {
+  width: 100px;
+  height: 37.5px;
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 31px 0px 31.5px;
+}
+
+/* BOX-CONTAINER3 */
+.box-container3 {
+  width: 1000px;
+  background-color: #E6E6E6;
+  margin: 50px 50px;
+}
+
+.box1C {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.box2C {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: left;
+}
+
+.maincontainer.box-container2.BOXES2{
+  float:right;
+}
+
+.box3C {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: right;
+}
+
+.box4C {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  float: right;
+  margin: 0 15px;
+}
+
+.text3C,
+.text4C {
+  width: 200px;
+  height: 75px;
+  color: #FFF;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 63px 0 62px;
+}
