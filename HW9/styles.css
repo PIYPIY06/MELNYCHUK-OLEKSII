@@ -1,6 +1,6 @@
 /* Стили для .header */
 .header {
-    background: #EEEFF1;
+    background-color: #EEEFF1;
 }
 
 .container {
@@ -72,7 +72,7 @@
 
 /* Стили для .section-about */
 .section-about {
-    background: #F9F9F9;
+    background-color: #F9F9F9;
 }
 
 .section-container {
@@ -109,7 +109,7 @@
 
 /* стили для .section-project */
 .section-project {
-    background: var(--accent, #34547A);
+    background-color: var(--accent, #34547A);
 }
 
 .section-container2 {
@@ -172,7 +172,7 @@
 /* стили для section-work */
 
 .section-work{
-    background: var(--silver, #EEEFF1);
+    background-color: var(--silver, #EEEFF1);
 }
 
 .work-container{
@@ -213,7 +213,7 @@
 
 /* стили для footer */
 footer{
-    background: #34547A;
+    background-color: #34547A;
 }
 
 .bottom-container{
