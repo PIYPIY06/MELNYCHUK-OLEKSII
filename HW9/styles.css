@@ -3,20 +3,19 @@
     background-color: #EEEFF1;
 }
 
-
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
 .navigation {
-    padding:76px 0px 0px 46px;
+    padding: 76px 0px 0px 46px;
 }
 
 .navigation li {
     display: inline;
     color: #000;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -37,22 +36,22 @@
 
 .header-head {
     color: #000;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 164.063%; 
+    line-height: 164.063%;
     padding: 144px 0 0 50px;
 }
 
 .header-desc {
     margin: 35px 0 0 48px;
     color: #727272;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 164.063%; 
+    line-height: 164.063%;
 }
 
 .header-btn {
@@ -62,13 +61,13 @@
     background-color: #34547A;
     color: #FFF;
     text-align: center;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 164.063%; 
+    line-height: 164.063%;
     letter-spacing: 1.4px;
-    }
+}
 
 /* Стили для .section-about */
 .section-about {
@@ -76,16 +75,16 @@
 }
 
 .section-container {
-   width: 1200px;
-   margin: 0 auto;
-
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .section-head {
-    padding-top:111px;
-    margin-left:16px;
+    padding-top: 111px;
+    margin-left: 16px;
     color: #000;
     text-align: center;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -93,42 +92,53 @@
 }
 
 .section-desc {
-    padding:39px 0 100px 18px;
+    padding: 39px 0 89px 18px;
     color: #727272;
     text-align: center;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 164.063%; 
+    line-height: 164.063%;
 }
 
 /* стили для .section-project */
 .section-project {
-    background-color: var(--accent, #34547A);
+    background: var(--accent, #34547A);
 }
 
 .section-container2 {
     width: 1200px;
     margin: 0 auto;
-
- 
 }
 
 .block1 {
-
+    padding: 100px 0 97px 57px;
     display: inline-block;
+    margin-right: 15px;
 }
 
-.image{
-    width: 50px;
-    height: 50px;
+.sectionhead2 {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sectiondesc2 {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    margin-right: 59px;
 }
 
 .block2 {
     display: inline-block;
-    margin-right: 39px;
-
 }
 
 .block1:nth-child(n+2) {
@@ -138,83 +148,67 @@
 .block2:last-child {
     margin: 0;
 }
-    
-    .section-head2 {
-        color: #FFF;
-        font-family: Roboto,sans-serif;
-        font-size: 21px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-     
-    }
-    
-    .section-desc2 {
-        color: #FFF;
-        padding-right: 30px;
-        color: #FFF;
-        font-family: Roboto,sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 164.063%; 
-    }
-}
-/* стили для section-work */
 
-.section-work{
+/* стили для section-work */
+.section-work {
     background-color: var(--silver, #EEEFF1);
 }
 
-.work-container{
-    width:1200px;
-    margin:0 auto;
+.work-container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.work-title{
-    padding:100px 0 50px 0px;
+.work-title {
+    padding: 101px 0 35px 10px;
     color: #000;
     text-align: center;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 500;
     line-height: normal;
 }
 
-.work-desc{
+.work-desc {
     color: #727272;
     text-align: center;
+    font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 164.063%;
-    padding:0 0 57px 0px;     
+    line-height: 164.063%; /* 26.25px */
+    padding: 5px 0 75px 17px;
 }
 
-.work-video{
-    padding: 0 50px 100px;
+.work-video {
+    padding: 0 53px 97px;
 }
 
 /* стили для footer */
-footer{
+footer {
     background-color: #34547A;
 }
 
-.bottom-container{
+.bottom-container {
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.bottom-head{
-    padding:50px 0 20px 406px;
+.bottom-head {
+    padding: 48px 0 12px 55px;
     color: #FFF;
+    font-family: Roboto, sans-serif;
     font-size: 21px;
+    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-.bottom-desc{
-    padding:0 0 50px 406px;
+.bottom-desc {
+    padding: 0 0 50px 55px;
     color: #FFF;
+    font-family: Roboto, sans-serif;
     font-size: 13px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 164.063%; 
+    line-height: 164.063%;
 }
