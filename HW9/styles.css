@@ -1,6 +1,6 @@
 /* Стили для .header */
 .header {
-    background-color: #0655f3;
+    background-color: #EEEFF1;
 }
 
 
@@ -10,20 +10,20 @@
 }
 
 .navigation {
-    padding:76px 0px 0px 32px;  
+    padding:76px 0px 0px 46px;
 }
 
 .navigation li {
     display: inline;
     color: #000;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 164.063%;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.8px;
     text-transform: uppercase;
-    margin-right: 40px;
+    margin-right: 37px;
 }
 
 .navigation li:last-child {
@@ -37,34 +37,37 @@
 
 .header-head {
     color: #000;
-    color: #000;
-    font-size: 53px;
+    font-family: Roboto,sans-serif;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 164.063%;
-    padding: 139px 0 0 33px;
+    line-height: 164.063%; 
+    padding: 144px 0 0 50px;
 }
 
 .header-desc {
-    margin: 28px 0 0 45px;
+    margin: 35px 0 0 48px;
     color: #727272;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 164.063%; /* 26.25px */
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; 
 }
 
 .header-btn {
     width: 225px;
     height: 65px;
-    margin: 86px 0 141px 41px;
-    background-color:#34547A;
+    margin: 83px 0 141px 47px;
+    background-color: #34547A;
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    font-size: 17px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 164.063%;
-    letter-spacing: 1.6px;
+    line-height: 164.063%; 
+    letter-spacing: 1.4px;
     }
 
 /* Стили для .section-about */
@@ -73,26 +76,31 @@ line-height: 164.063%; /* 26.25px */
 }
 
 .section-container {
-    width: 1200px;
+   width: 1200px;
    margin: 0 auto;
-}
+
 
 .section-head {
-    padding: 112px 0 0 759px;
+    padding-top:111px;
+    margin-left:16px;
     color: #000;
     text-align: center;
+    font-family: Roboto,sans-serif;
     font-size: 32px;
+    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
 .section-desc {
-    padding:50px 0 100px 690px;
+    padding:39px 0 100px 18px;
     color: #727272;
     text-align: center;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 164.063%;
+    line-height: 164.063%; 
 }
 
 /* стили для .section-project */
@@ -103,26 +111,24 @@ line-height: 164.063%; /* 26.25px */
 .section-container2 {
     width: 1200px;
     margin: 0 auto;
+
+ 
 }
 
 .block1 {
-    padding: 100px 0 100px 409px;
+
     display: inline-block;
-    margin-right: 20px;
 }
 
-.image {
-    height: 50px;
+.image{
     width: 50px;
+    height: 50px;
 }
-
-
 
 .block2 {
-    width:71px;
-    height:44px;
     display: inline-block;
-    margin-right: 45px;
+    margin-right: 39px;
+
 }
 
 .block1:nth-child(n+2) {
@@ -135,18 +141,23 @@ line-height: 164.063%; /* 26.25px */
     
     .section-head2 {
         color: #FFF;
+        font-family: Roboto,sans-serif;
         font-size: 21px;
+        font-style: normal;
         font-weight: 500;
         line-height: normal;
-        margin-bottom: 10px;
+     
     }
     
     .section-desc2 {
         color: #FFF;
-        right: 30px;
+        padding-right: 30px;
+        color: #FFF;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 164.063%;
+        line-height: 164.063%; 
     }
 }
 /* стили для section-work */
@@ -157,12 +168,11 @@ line-height: 164.063%; /* 26.25px */
 
 .work-container{
     width:1200px;
-
     margin:0 auto;
 }
 
 .work-title{
-    padding:100px 0 50px 758px;
+    padding:100px 0 50px 0px;
     color: #000;
     text-align: center;
     font-size: 32px;
@@ -176,11 +186,11 @@ line-height: 164.063%; /* 26.25px */
     font-size: 16px;
     font-weight: 400;
     line-height: 164.063%;
-    padding:0 0 57px 690px;     
+    padding:0 0 57px 0px;     
 }
 
 .work-video{
-    padding: 0 405px 100px;
+    padding: 0 50px 100px;
 }
 
 /* стили для footer */
