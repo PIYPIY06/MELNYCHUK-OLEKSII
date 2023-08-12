@@ -1,0 +1,16 @@
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.top{
+    padding-top:31px;
+}
+.main-nav__list{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 49px;
+}
+
+.main-nav__item{
+    margin-right: 49px;
+}
