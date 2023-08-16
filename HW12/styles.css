@@ -4,7 +4,9 @@
         url(./FONTS/graphiklcg-regular-webfont.woff2)  format ("woff");
 }
 
-
+.header{
+    background:#fff;
+}
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -13,9 +15,9 @@
 .main-nav {
     display:flex;
     justify-content:space-between; 
-    align-items: center;
+    align-items: baseline;
     border-bottom: 2px solid #ccc;
-     padding: 31px 50px 20px 50px;
+     padding: 31px 0 20px  ;
   
 }
 
@@ -66,10 +68,10 @@ gap:57px;
     border:0;
 }
 
-.intro-main{
-  
-    padding:131px 69px 180px 75px;
-
+.intro-main{ 
+    padding:131px  0 180px 0 ;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
 .intro-main__bigbox{
@@ -149,12 +151,14 @@ line-height: 60px;
     line-height: 25px;
 }
 
+.brands-main{
+    background: #FF9C7D;
+}
 
 .brands {
-    background: #FF9C7D;
-    padding: 100px 95px 100px 102px;
+    padding: 100px 0 100px ; 
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-between;
 }
 
@@ -178,13 +182,12 @@ line-height: 60px;
 
 /* main-content */
 .content {
-    padding: 102px 75px 150px 75px;
+    padding: 102px 0 150px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    align-items: center;
     row-gap:300px;
-    
 }
 
 .content-box {
@@ -253,12 +256,16 @@ line-height: 60px;
 }
 
 /* Features */
-.features{
+
+.features-main{
     background: #FFF8E4;
-    padding:120px 125px 150px 125px;
+}
+.features{
+    padding:0 140px 0 129px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     row-gap: 50px;
     }
 
@@ -309,16 +316,17 @@ font-weight: 400;
 line-height: 25px; 
 }
 
-.Advantages{
-    padding:150px 80px 78px 125px;
+.advantages{
+    padding:150px 0 78px; 
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    align-items: center;
     gap:85px;
     
 }
 
-.Advantages__title{
+.advantages__title{
     color: #000;
 font-family: "Graphik LC TT",sans-serif;
 font-size: 50px;
@@ -327,21 +335,21 @@ font-weight: 600;
 line-height: 60px; 
 }
 
-.Advantages__card-bigbox{
+.advantages__card-bigbox{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
     gap:35px;
 }
 
-.Advantages__card{
+.advantages__card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap:20px; 
 }
 
-.Advantages__card__title{
+.advantages__card__title{
     color: #000;
     font-family: "Graphik LC TT";
     font-size: 30px;
@@ -350,7 +358,7 @@ line-height: 60px;
     line-height: 40px; 
 }
 
-.Advantages__card__parg{
+.advantages__card__parg{
     color: #000;
     font-family: "Graphik LC TT",sans-serif;
     font-size: 20px;
@@ -359,16 +367,16 @@ line-height: 60px;
     line-height: 30px;
 }
 
-.Advantages__card__image{
+.advantages__card__image{
     width: 145px;
 height: 201px;
 }
-.Advantages__card__image_small{
+.advantages__card__image_small{
     width: 179px;
     height: 183px;
 }
 
-.Advantages__card__link{
+.advantages__card__link{
     color: #000;
     font-family: "Graphik LC TT",sans-serif;
     font-size: 20px;
@@ -377,15 +385,17 @@ height: 201px;
     line-height: 30px; /* 150% */
     text-decoration-line: underline;
 }
-
-.Remarks{
-    padding:130px 75px 105px 75px;
+.remarks-main{
     background: #C9E8F2;
+}
+.remarks{
+    padding:130px 0 105px 0;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-.Remarks__parg{
+.remarks__parg{
     color: #000;
 font-family: "Graphik LC TT",sans-serif;
 font-size: 30px;
@@ -394,7 +404,7 @@ font-weight: 400;
 line-height: 40px;
 }
 
-.Remarks__parg_smal{
+.remarks__parg_smal{
     color: #000;
 font-family: Roboto,sans-serif;
 font-size: 15px;
@@ -403,7 +413,7 @@ font-weight: 400;
 line-height: 25px;
 }
 
-.Remarks__box{
+.remarks__box{
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
@@ -411,28 +421,28 @@ justify-content: space-evenly;
 }
 
 
-.Remarks__logo{
+.remarks__logo{
  width: 115.216px;
 height: 25px;
 }
 
-.Ratings{
-padding: 50px 140px 120px 54px;
-background-color: #DABC98;
-display: flex;
-justify-content: space-around;
-gap:25px;
-    
+.ratings-main{
+ background-color: #DABC98; 
 }
-.Ratings__box{
+.ratings{
+padding: 50px 0 120px;
 display: flex;
+justify-content: space-evenly;
+}
+
+.ratings__box{
+display: flex;
+justify-content:space-between;
 align-items: center;
 border-right: 3px solid #000;
-justify-content: space-around;
-
 }
 
-.Ratings__title{
+.ratings__title{
 color: #000;
 font-family: "Graphik LC TT",sans-serif;
 font-size: 35px;
@@ -441,13 +451,13 @@ font-weight: 600;
 line-height: 50px;
 }
 
-.Ratings__remarks{
+.ratings__remarks{
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 }
 
-.User-ratings__box{
+.user-ratings__box{
 display: flex;
 flex-direction: column;
 align-content: space-evenly;
@@ -455,20 +465,20 @@ gap:15px;
 }
 
 .tools-integration{
-    padding:175px 285px 170px 270px;
+    padding:175px 0 170px;
 }
 
 .tools-integration__box{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 
 .tools-integration__title{
     color: #000;
 text-align: center;
-font-family: Graphik LC TT,sans-serif;
+font-family: "Graphik LC TT",sans-serif;
 font-size: 65px;
 font-style: normal;
 font-weight: 600;
@@ -498,10 +508,10 @@ line-height: 30px;
 }
 
 .localization{
-    padding:130px 350px 160px 265px;
+    padding:130px 0 160px;
     background: #FF9C7D;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-content: center;
 }
 
@@ -546,60 +556,57 @@ width: 160px;
 height: 60px;
 }
 
-.case-studies{
-    padding:100px 95px 48px 75px;
+.footer{
     background: #EEE;
+}
+.case-studies{
+    padding:50px 0 48px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-items: flex-start;
-   
 }
 
 .case-studies__aside{
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
-    justify-content: flex-start;
-    gap:15px;
+    align-items:flex-start;
 }
-
 
 .case-studies-aside__title{
     color: #000;
 font-family: "Graphik LC TT",sans-serif;
-font-size: 40px;
+font-size: 30px;
 font-style: normal;
 font-weight: 600;
-line-height: 50px;
 }
 
 .case-studies-aside__picture{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+
     }
 
 .case-studies-aside__logo{
-    width: 80px;
+width: 80px;
 height: 32px;
 }
 
 .case-studies-aside__parg{
     color: #000;
 font-family: "Graphik LC TT",sans-serif;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;
+line-height: 20px;
 }
 
 .case-studies-aside__link{
     color: #000;
 font-family: "Graphik LC TT",sans-serif;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 600;
-line-height: 30px; 
+line-height: 25px; 
 text-decoration: none;
 }
 
@@ -643,7 +650,7 @@ text-decoration: none;
 }
 
 .copyrights{
-    padding:50px 150px 45px 75px;
+    padding:50px 0 45px ;
     background: #EEE;
     border-top: 3px solid #000;
     display: flex;
