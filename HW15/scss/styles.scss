@@ -1,0 +1,74 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(136, 129, 129);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    grid-template-rows: repeat(2, 350px);
+    grid-gap: 60px 25px;
+    padding:20px 0 20px;
+}
+
+.content-box:nth-child(1) {
+    display: grid;
+    align-content: space-evenly;
+    justify-content: start;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: $bd-radius;
+    padding-left: 15px;
+}
+
+.content-box__title:nth-child(1) {
+    font-size: $fz-big;
+    font-weight: $big-weight;
+    margin:0px;
+}
+
+.content-box__parg:nth-child(1){
+    font-weight:$normal-weight;
+    font-size:$fz-min;
+    margin:0px;
+}
+
+.content-box:nth-child(2) {
+  @include content-cards
+}
+
+.content-box:nth-child(3) {
+    @include content-cards ($bg-color:rgb(12, 223, 238));
+}
+
+.content-box:nth-child(4) {
+    @include content-cards ($bg-color:rgb(178, 238, 12));
+}
+
+.content-box:nth-child(5) {
+    @include content-cards ($bg-color:rgb(154, 156, 155));
+}
+
+.content-box__title:nth-child(n+2):nth-child(-n+5){
+    font-weight:$big-weight;
+    font-size: $fz-mid;
+}
+
+.content-box__parg:nth-child(n+2):nth-child(-n+5){
+    font-weight: $normal-weight;
+    font-size: $fz-min;
+}
+
+.content-box__image {
+    width: 60px;
+    height: 60px;
+}
