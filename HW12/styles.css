@@ -8,22 +8,43 @@
     background:#fff;
 }
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:1200px){
+    .container{max-width:970px;}
+
+    @media screen and (max-width:992px){
+ .container{max-width:750px;}
+}
+ @media screen and (max-width:767px) {
+    .container{
+        max-width:none;
+        margin:0 30px;
+
+    }
+ }
+}
+
+
+.burger{
+    display:none;
 }
 
 .main-nav {
     display:flex;
     justify-content:space-between; 
-    align-items: baseline;
+    align-items: center;
     border-bottom: 2px solid #ccc;
-     padding: 31px 0 20px  ;
+     padding: 30px 0 20px ;
   
 }
 
 .main-nav__list{
 display: flex;
 gap:57px;
+align-items:center;
 }
 
 .main-nav__link {
@@ -68,22 +89,75 @@ gap:57px;
     border:0;
 }
 
+@media screen and ( min-width:320px) and  (max-width:768px){
+    .container{
+        padding-top:30px;
+    }
+    .burger{
+     display:block;
+     width:30px;
+     height:20px; 
+     position:relative;
+    }
+
+    .burger span{
+        position:absolute;
+        background-color:#000000;
+        left:0;
+        width: 100%;
+        height:2px;
+        top:9px;
+
+    }
+    .burger:before,
+    .burger:after{
+        content:'';
+        position:absolute;
+        background-color: #000;
+        width:100%;
+        height:2px;
+        left:0;
+    }
+     .burger:before{
+        top:0;
+    }
+    .burger:after{
+        bottom:0;
+    }
+
+    .main-nav__list{
+        display:none;
+    }
+}
+
+
 .intro-main{ 
     padding:131px  0 180px 0 ;
     justify-content: space-evenly;
     align-items:center;
+    position: relative;
 }
+
 
 .intro-main__bigbox{
     display:flex;
-    justify-content: space-between;
 }
+  
 
 .intro-main__box{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:1vh;
+   
 }
+.intro-main__picture-box{
+    position: absolute;
+      height:auto;
+      left:0;
+      top:0;
+      width:100%;
+} 
 
 .intro-main__title {
     color: #000;
@@ -183,12 +257,20 @@ line-height: 60px;
 /* main-content */
 .content {
     padding: 102px 0 150px ;
+   
+}
+
+.content-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    row-gap:300px;
+    row-gap: 300px;
 }
+.content-wrapper:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
 
 .content-box {
     display: flex;
@@ -382,7 +464,7 @@ height: 201px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px; 
     text-decoration-line: underline;
 }
 .remarks-main{
