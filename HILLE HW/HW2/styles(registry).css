@@ -6,11 +6,14 @@ body {
     text-shadow: 1px 1px 2px #ee1111;
 }
 
-h3, label, input, a {
+h3,
+label,
+input,
+a {
     display: block;
     margin: 10px auto;
 }
 
-input[type="submit"] {
+input[type='submit'] {
     display: inline-block;
 }

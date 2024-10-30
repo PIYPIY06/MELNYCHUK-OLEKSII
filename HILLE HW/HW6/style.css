@@ -2,49 +2,49 @@
     width: 600px;
     height: 400px;
     position: relative;
-    background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
+    background: url('https://htmlbase.ru/storage/app/media/position-task1/bg.jpg');
 }
 
-.superman{
-  position: absolute;
+.superman {
+    position: absolute;
     right: 39px;
     bottom: 0px;
 }
 
-.planet-3{
-position: absolute;
+.planet-3 {
+    position: absolute;
     left: 144px;
     bottom: 19px;
     z-index: 2;
 }
 
-.ufo{
-  position: absolute;
+.ufo {
+    position: absolute;
     left: 113px;
     bottom: 52px;
     z-index: 3;
 }
 
-.asteroid{
-  position: absolute;
-  right: 106px;
-  top: 81px;
+.asteroid {
+    position: absolute;
+    right: 106px;
+    top: 81px;
 }
 
-.spaceship{
-  position: absolute;
+.spaceship {
+    position: absolute;
     left: 149px;
     top: 150px;
 }
 
-.planet-2{
-  position: absolute;
+.planet-2 {
+    position: absolute;
     left: 65px;
     top: 61px;
 }
 
-.planet-1{
-  position: absolute;
-  left: 204px;
-  top: 26px;
+.planet-1 {
+    position: absolute;
+    left: 204px;
+    top: 26px;
 }

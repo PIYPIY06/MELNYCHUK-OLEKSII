@@ -15,10 +15,10 @@ form {
 label {
     margin-bottom: 10px;
     font-weight: bold;
-    text-shadow: 1px 2px 3px #f52121; 
+    text-shadow: 1px 2px 3px #f52121;
 }
 
-input[type="number"] {
+input[type='number'] {
     width: 100px;
     margin-right: 5px;
 }
@@ -27,7 +27,7 @@ select {
     margin-bottom: 10px;
 }
 
-button[type="submit"] {
+button[type='submit'] {
     margin-top: 10px;
 }
 
@@ -35,10 +35,10 @@ h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #f7ebeb;
-    text-shadow: 1px 2px 3px #df0f0f; 
+    text-shadow: 1px 2px 3px #df0f0f;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
     margin-left: 10px;
     margin-right: 5px;
 }

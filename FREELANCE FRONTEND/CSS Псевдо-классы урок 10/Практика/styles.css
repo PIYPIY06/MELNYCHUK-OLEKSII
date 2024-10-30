@@ -1,0 +1,104 @@
+body {
+    padding: 40px;
+    background: #e8e8e8;
+}
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --second-family: 'Arial', sans-serif;
+    --third-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --1: #34383d;
+    --2: #fff;
+    --3: #cda861;
+}
+
+h1 {
+    font: 400 13px var(--second-family);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-bottom: 120px;
+}
+
+.list li {
+    background: url('check icon.png') left top no-repeat;
+    padding-left: 25px;
+}
+
+.list li:first-child {
+    font: 400 20px var(--second-family);
+    text-decoration: line-through;
+    color: #273d46;
+}
+
+.list li:first-child:hover {
+    text-decoration: none;
+}
+
+.list li:nth-child(2) {
+    font: 700 19px var(--second-family);
+    color: #273d46;
+}
+
+.list li:nth-child(2):hover {
+    color: red;
+}
+
+.list li:nth-child(3) {
+    font: italic 400 19px var(--second-family);
+    color: #273d46;
+}
+
+.list li:nth-child(3):hover {
+    font: 400 20px var(--second-family);
+    color: #273d46;
+}
+
+.list li:nth-child(4) {
+    font: 400 20px var(--second-family);
+    text-transform: uppercase;
+    color: #273d46;
+}
+
+.list li:nth-child(4):hover {
+    font: 400 19px var(--second-family);
+    color: #273d46;
+    text-transform: lowercase;
+}
+
+.button {
+    width: 200px;
+    height: 45px;
+    background-image: url('Rounded Rectangle 1.png');
+    font: 400 13px var(--second-family);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--2);
+}
+
+.button:hover {
+    background: url('Rounded Rectangle 2.png');
+}
+
+.button:active {
+    background: url('Rounded Rectangle 3.png');
+}
+
+.text-input {
+    display: block;
+    width: 292px;
+    height: 50px;
+    margin-top: 125px;
+}
+
+.text-input:focus {
+    box-shadow: 2px 2px 5px #02c39a;
+    border: 1px solid #02c39a;
+}

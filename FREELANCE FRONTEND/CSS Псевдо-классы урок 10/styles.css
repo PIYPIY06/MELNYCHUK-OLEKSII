@@ -1,0 +1,100 @@
+body {
+    padding: 30px;
+}
+
+.block {
+    margin-bottom: 30px;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.block p:nth-of-type(3) {
+    text-transform: uppercase;
+}
+
+.block p:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.block p:nth-of-type(2):hover {
+    background-color: black;
+}
+
+.block:hover {
+    color: orange;
+}
+
+.link {
+    color: red;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    color: green;
+    text-decoration: line-through;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.text-input {
+    border: 1px solid brown;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.text-input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-button {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: brown;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.text-button:hover {
+    background: #3333;
+    color: yellow;
+}
+
+.text-button:active {
+    background-color: blue;
+}
+
+.list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.list li:first-child {
+    color: green;
+}
+
+.list li:last-child {
+    color: red;
+}
+
+.list li:nth-child(2) {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+

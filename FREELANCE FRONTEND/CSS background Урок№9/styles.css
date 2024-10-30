@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px 30px 30px 30px;
+
+}
+
+.block {
+    background: url(images/avatar_3.jpg) 50%/100px no-repeat, url("images/avatar.jpg") 0 0 no-repeat, url("images/bg.jpg") 50%/cover no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.list {
+    margin-bottom: 50px;
+}
+
+.list li {
+    font-size: 19px;
+    margin-bottom: 15px;
+    background: url("icons/li.svg") no-repeat;
+    padding-left: 30px;
+}

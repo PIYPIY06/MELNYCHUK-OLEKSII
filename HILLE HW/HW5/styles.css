@@ -6,20 +6,20 @@ body {
 
 h1 {
     color: rgb(3, 3, 3);
-    margin-left:40%;
+    margin-left: 40%;
 }
 
 div ul {
-   margin-left:15%;
+    margin-left: 15%;
 }
 
-h2{
+h2 {
     margin-left: 40%;
 }
 
 /* Cелектор по тегу */
-h4{
-    color:chartreuse;
+h4 {
+    color: chartreuse;
     text-decoration: line-through;
     text-shadow: 3px 3px 3px 3px;
     margin-left: 15%;
@@ -27,27 +27,29 @@ h4{
 
 /* Селектор по id */
 #line2 {
-    color:rgb(248, 13, 13);
-    text-decoration:overline;
+    color: rgb(248, 13, 13);
+    text-decoration: overline;
     margin-left: 15%;
 }
 
 /* Cелектор по классу */
-.line3{
-    color:blue;
+.line3 {
+    color: blue;
     font-size: xx-large;
     margin-left: 15%;
 }
 
 /* Групповой селектор */
-h3,h5,h6{
-color: rgb(163, 158, 156);
-font-size: larger;
-margin-left: 15%;
+h3,
+h5,
+h6 {
+    color: rgb(163, 158, 156);
+    font-size: larger;
+    margin-left: 15%;
 }
 
 /* Селектор по аттрибуту href */
-a[href*="google"] {
+a[href*='google'] {
     font-style: italic;
     color: darkorange;
     font-size: xx-large;
@@ -55,7 +57,7 @@ a[href*="google"] {
 }
 
 /* Селектор псевдокласса */
-a:hover{
-text-decoration:line-through;
-margin-left: 15%;
+a:hover {
+    text-decoration: line-through;
+    margin-left: 15%;
 }

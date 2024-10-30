@@ -1,9 +1,9 @@
-@import "./variables.scss";
+@import './variables.scss';
 
-@mixin content-cards ($bg-color:rgb(12, 110, 221)){
+@mixin content-cards($bg-color: rgb(12, 110, 221)) {
     display: grid;
     align-content: space-evenly;
     justify-content: space-evenly;
-    background-color:$bg-color;
+    background-color: $bg-color;
     border-radius: $bd-radius;
 }

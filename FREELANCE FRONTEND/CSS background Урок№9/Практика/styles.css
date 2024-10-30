@@ -1,0 +1,105 @@
+:root {
+    --font-family: 'Arial', sans-serif;
+    --second-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-width: 1440px;
+    background-color: #e8e8e8;
+    background-image: url(2b47f11c-b726-4654-a80b-3d195aa665e2.png);
+    background-size: 52% 66%;
+    background-repeat: no-repeat;
+    background-position: 55% 16%;
+}
+
+.intro-title {
+    font: 400 13px var(--font-family);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #273d45;
+    opacity: 0.6;
+    padding-top: 168px;
+    margin-bottom: 23px;
+}
+
+.intro-description {
+    font: 400 28px / 139% var(--second-family);
+    text-align: center;
+    color: #273d45;
+    margin-bottom: 79px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.intro-image {
+    max-width: 821px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 110px;
+}
+
+.flex-main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 63px;
+}
+
+.flex-text {
+    font: 400 24px / 167% var(--second-family);
+    color: #273d45;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 17%;
+}
+
+
+.list li:first-child {
+    font: 400 19px var(--font-family);
+    color: #273d46;
+    text-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.list li:nth-child(2) {
+    font: italic 400 20px var(--font-family);
+    color: #7fb7b3;
+}
+
+.list li:nth-child(3) {
+    font: 700 19px var(--font-family);
+    color: #273d46;
+}
+
+.list li:nth-child(4) {
+    font: 400 20px var(--font-family);
+    text-decoration: line-through;
+    color: #273d46;
+}
+
+.list li {
+    background: url("check icon.png") left no-repeat;
+    padding-left: 25px;
+}
+
+
+.intro-button {
+    width: 200px;
+    height: 45px;
+    font: 400 13px var(--font-family);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    background-color: #80B7B3;
+    color: #ffff;
+    border-radius: 50%;
+    margin-right: 27%;
+}

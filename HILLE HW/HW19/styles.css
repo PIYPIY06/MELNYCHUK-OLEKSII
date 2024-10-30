@@ -1,19 +1,19 @@
-.container{
-    max-width:1200px;
-    margin:0 auto;
-    padding-top:40px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
 }
 
-.icon-wrapper{
-    display:flex;
+.icon-wrapper {
+    display: flex;
     justify-content: space-between;
     align-content: space-evenly;
-    gap:40px;
+    gap: 40px;
 }
 
 .icon-accelerate:before,
-.icon-address:before, 
-.icon-notify:before, 
-.icon-thumbs-up:before{
+.icon-address:before,
+.icon-notify:before,
+.icon-thumbs-up:before {
     font-size: 56px;
-} 
+}

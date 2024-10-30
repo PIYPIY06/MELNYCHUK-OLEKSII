@@ -1,0 +1,14 @@
+.example-block {
+    visibility: hidden;
+    font-size: 50PX;
+}
+
+.example-string {
+    font-size: 50px;
+    outline: 2px solid #000;
+}
+
+.example-image {
+    border: 10px solid black;
+
+}

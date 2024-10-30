@@ -2,108 +2,105 @@
 .maincontainer {
     width: 1100px;
     height: 800px;
-    background-color: #C4C4C4;
+    background-color: #c4c4c4;
     padding-top: 50px;
-    margin: 0 auto; 
-  }
-  
-  /* BOX-CONTAINER1 */
-  .box-container
-  {
+    margin: 0 auto;
+}
+
+/* BOX-CONTAINER1 */
+.box-container {
     width: 1000px;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     margin: 50px 50px;
-  }
-  
-   .clear {
+}
+
+.clear {
     clear: both;
-  } 
-  
-  .box1 {
+}
+
+.box1 {
     width: 200px;
     height: 200px;
-    background-color: #FC8F8F;
+    background-color: #fc8f8f;
     float: left;
-  }
-  
-  .box2 {
+}
+
+.box2 {
     width: 200px;
     height: 200px;
-    background-color: #FC8F8F;
+    background-color: #fc8f8f;
     float: right;
-  }
-  
-  .text{
+}
+
+.text {
     width: 200px;
     height: 75px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     margin: 63px 0 62px;
-  }
-  
-  /* BOX-CONTAINER2 */
-    .boxes{
-   float:right;
-  } 
-   
-  .boxes > div {
-    display: inline-block;
-  }
-  
-  .box2a {
-    width: 100px;
-    height:100px;
-    background-color: #FC8F8F;
-    margin-right: 15px;
-  }
-  .box3{
-    width: 100px;
-    height:100px;
-    background-color: #FC8F8F;
-  }
+}
 
-  
-  .text2a{
+/* BOX-CONTAINER2 */
+.boxes {
+    float: right;
+}
+
+.boxes > div {
+    display: inline-block;
+}
+
+.box2a {
+    width: 100px;
+    height: 100px;
+    background-color: #fc8f8f;
+    margin-right: 15px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #fc8f8f;
+}
+
+.text2a {
     width: 100px;
     height: 30px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 60px;
     font-style: normal;
     line-height: normal;
     margin: 21px 0px 21.5px;
-   } 
-   
+}
 
-  /* BOX-CONTAINER3 */
-  .box1C,
-  .box2C {
+/* BOX-CONTAINER3 */
+.box1C,
+.box2C {
     width: 200px;
     height: 200px;
-    background-color: #FC8F8F;
+    background-color: #fc8f8f;
     float: left;
     margin-right: 15px;
-  }
+}
 
-  .boxes2{
+.boxes2 {
     float: right;
-  } 
-   .boxes2 > div {
-    display:inline-block;
-  } 
+}
+.boxes2 > div {
+    display: inline-block;
+}
 
-  .box3C{
+.box3C {
     width: 200px;
-    height:200px;
-    background-color: #FC8F8F;
+    height: 200px;
+    background-color: #fc8f8f;
     margin-right: 15px;
-  }
+}
 
-  .box4C{
+.box4C {
     width: 200px;
-    height:200px;
-    background-color: #FC8F8F;
-  }
+    height: 200px;
+    background-color: #fc8f8f;
+}
