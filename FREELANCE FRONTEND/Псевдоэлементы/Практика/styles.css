@@ -1,0 +1,129 @@
+body {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_title {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.list {
+}
+
+.list_item1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #273d46;
+}
+
+.list_item2 {
+    color: #273d46;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.list_item3 {
+    color: #273d46;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.list_item4 {
+    text-transform: uppercase;
+    color: #273d46;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 140px;
+}
+
+.list_item1,
+.list_item2,
+.list_item3 {
+    margin-bottom: 18px;
+}
+
+.list_item1:before,
+.list_item2:before,
+.list_item3:before,
+.list_item4:before {
+    content: '✓';
+    font-weight: 800;
+    font-size: 20px;
+    color: #80b7b3;
+    padding-right: 20px;
+}
+
+.list_item1:hover {
+    text-decoration: none;
+}
+
+.list_item2:hover,
+.list_item2:hover:before {
+    color: red;
+}
+
+.list_item3:hover {
+    font-style: normal;
+}
+
+.list_item4:hover {
+    text-transform: lowercase;
+}
+
+.full__button {
+    background: url('Rounded Rectangle 1.png') 0 1px no-repeat;
+
+    width: 200px;
+    height: 45px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 120px;
+}
+
+.full__button:after {
+    content: '→';
+    font-size: 20px;
+}
+
+.full__button:hover {
+    background: url('Rounded Rectangle 2.png');
+}
+
+.full__button:active {
+    background: url('Rounded Rectangle 4.png');
+}
+
+.text-container p:nth-child(1) {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 56px;
+}
+
+.text1:first-line {
+    color: red;
+}
+
+.text-container p:nth-child(2) {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.text2:first-letter {
+    color: red;
+    font-weight: bolder;
+}
