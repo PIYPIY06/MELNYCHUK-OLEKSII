@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+</head>
+<body>
+<form action="#">
+    <p>
+        <!--    Атрибут required требует обязательно заполнение поля ввода-->
+        <label for="login">Логин</label>
+        <input type="password" id="login" name="user-login" required />
+    </p>
+    <p>
+        <label for="agreement">Я соглашаюсь</label>
+        <input
+            type="checkbox"
+            id="agreement"
+            name="user-agreement"
+            required
+        />
+    </p>
+    <!--    disabled делает элемент не активным и с ним нельзя взаимодействовать-->
+    <p>
+        <label for="city">Ваш город:</label>
+        <select id="city" name="user-city" required>
+            <option value="" disabled selected>Не выбрано</option>
+            <option value="moscow">Москва</option>
+            <option value="petersburg">Санкт-Петербург</option>
+        </select>
+    </p>
+    <button type="submit">Send</button>
+</form>
+<!--Readonly делает элемент недоступным для редактирования -->
+<p>
+    <label for="request-number">Ваш номер обращения:</label>
+    <input
+        id="request-number"
+        name="user-request"
+        value="123"
+        readonly
+    />
+</p>
+
+<!--Атрибут placeholder делает заготовку в поле ввода, после ввода которая
+пропадает-->
+<p>
+    <label for="name">Ваше имя:</label>
+    <input
+        type="text"
+        id="name"
+        name="user-name"
+        placeholder="Введите имя "
+    />
+</p>
+
+<!--Виды inputmode --- атрибут,
+который подсказывает какую клавиатуру использовать на сенсорных устройствах-->
+<p>
+    <label for="field-1">Стандартная экранная клавиатура</label>
+    <input inputmode="text" id="field-1" name="field-1" />
+</p>
+
+<p>
+    <label for="field-2">Экранная клавиатура не появится</label>
+    <input inputmode="none" id="field-2" name="field-2" />
+</p>
+
+<p>
+    <label for="field-3">Экранная клавиатура с цифрами</label>
+    <input inputmode="numeric" id="field-3" name="field-3" />
+</p>
+
+<p>
+    <label for="field-4"
+    >Экранная клавиатура с цифрами и разделителем</label
+    >
+    <input inputmode="numeric-decimal" name="field-4" id="field-4" />
+</p>
+
+<p>
+    <label for="field-5"
+    >Экранная клавиатура для ввода номера телефона</label
+    >
+    <input inputmode="tel" id="field-5" name="field-5" />
+</p>
+
+<p>
+    <label for="field-6">Экранная клавиатура для ввода e-mail</label>
+    <input inputmode="e-mail" id="field-6" name="field-6" />
+</p>
+
+<p>
+    <label for="field-7">Экранная клавиатура с кнопкой поиска</label>
+    <input inputmode="search" id="field-7" name="field-7" />
+</p>
+
+<p>
+    <label for="field-8"
+    >Экранная клавиатура для ввода url адреса</label
+    >
+    <input inputmode="url" id="field-8" name="field-8" />
+</p>
+<!--Атрибут автозаполнения autocomplete-->
+<p>
+    <label for="name2">Ваше имя:</label>
+    <input id="name2" name="name" autocomplete="on" />
+</p>
+<!--Автофокус "подсвечивает" элемент при загрузке страницы
+и с этим элементом можно взаимодействовать сразу с клавиатуры,
+фокус переключается клавишей TAB-->
+<p>
+    <label for="pass">Пароль:</label>
+    <input type="password" id="pass" name="password" autofocus />
+</p>
+</body>
+</html>

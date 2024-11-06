@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+</head>
+<body>
+<!--В этом примере:При наведении на заголовок <h1>, текст "Заголовок страницы"
+будет отображаться во всплывающей подсказке.При наведении на ссылку будет отображаться
+"Перейти на example.com". При наведении на абзац — "Это абзац с текстом".-->
+<h1 title="Заголовок страницы">Привет, мир!</h1>
+<a href="https://example.com" title="Перейти на example.com">
+    Ссылка на Example</a
+>
+<p title="Это абзац с текстом">Этот текст имеет атрибут title.</p>
+
+<!--hidden скрывает элемент внешне и из разметки-->
+<p hidden>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Accusantium adipisci consequatur, cumque et exercitationem fugiat,
+    in molestias natus, quaerat quas quo ratione veritatis! Earum
+    fugiat, itaque nobis nulla quis rerum.
+</p>
+
+<!--В этом примере:Абзац <p> и блок <div> содержат атрибут contenteditable="true",
+что позволяет пользователю щелкнуть по ним и изменить текст.
+В блоке <div> также добавлен стиль для визуального выделения редактируемой области.
+Этот атрибут особенно полезен для создания интерфейсов с функцией редактирования текста
+без необходимости перехода в специальные формы.-->
+<h1>Редактируемый текст</h1>
+
+<p contenteditable="true">
+    Этот текст можно редактировать. Просто щелкните сюда и измените его.
+</p>
+
+<div
+    contenteditable="true"
+    style="border: 1px solid black; padding: 10px">
+    Это редактируемая область. Вы можете добавить сюда свой текст.
+</div>
+</body>
+</html>

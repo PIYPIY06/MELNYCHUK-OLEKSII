@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Формы</title>
+</head>
+<body>
+<!--Форма-->
+<form action="#" method="post">
+    <!--    //Визуальная группировка нескольких полей ввода//-->
+    <fieldset>
+        <!--        Заголовок текстового поля -->
+        <legend>Заголовок поля</legend>
+    </fieldset>
+    <!--    Название перед инпутом-->
+    <label for="textwindow">Логин</label>
+    <!--    Label и input связываются через for и id,
+     значение аттрибута name нужно для сервера,
+     value используется для задания значения по умолчанию, которое будет отображаться внутри input-->
+    <input type="text" id="textwindow" name="text_1" value="1" />
+</form>
+</body>
+</html>

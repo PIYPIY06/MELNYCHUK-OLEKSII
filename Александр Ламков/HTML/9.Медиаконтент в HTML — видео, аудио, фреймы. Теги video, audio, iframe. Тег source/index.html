@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Медиаконтент в HTML</title>
+</head>
+<body>
+<!--Видео тег с аттрибутом controls,аттрибут autoplay muted -->
+<video
+    src="video/1.%20HTML%20для%20начинающих.%20Введение%20—%20тег,%20анатомия%20тега,%20поток%20документа,%20вложенность,%20атрибуты.mp4"
+    controls
+    width="480"
+    height="200"
+    autoplay
+    muted
+></video>
+
+<!--Видео тег с аттрибутом source-->
+<!--аттрибут loop-->
+<!--зацикливает видео с момента завершения видео -->
+
+<video>
+    <source
+        src="video/1.%20HTML%20для%20начинающих.%20Введение%20—%20тег,%20анатомия%20тега,%20поток%20документа,%20вложенность,%20атрибуты.mp4"
+        type="video/mp4"
+        loop
+    />
+</video>
+<!--        Видео с постером -->
+<video
+    src="video/1.%20HTML%20для%20начинающих.%20Введение%20—%20тег,%20анатомия%20тега,%20поток%20документа,%20вложенность,%20атрибуты.mp4"
+    сontrols
+    poster="video/beautiful-kitten-with-colorful-clouds_23-2150752964.avif"
+></video>
+
+<!--playinsline открывает в стандартном размере элемента видео на мобильных устройствах-->
+<video
+    src="video/1.%20HTML%20для%20начинающих.%20Введение%20—%20тег,%20анатомия%20тега,%20поток%20документа,%20вложенность,%20атрибуты.mp4"
+    playsinline
+></video>
+<!--        Тег аudio с аттрибутом controls-->
+<audio
+    controls
+    src="audio/big-baby-tape_-_bandana.mp3"
+    type="audio/mpeg"
+></audio>
+
+<!--тег iframe-->
+<iframe
+    src="https://yandex.com/map-widget/v1/?um=constructor%3A6238c86a501cea422b5bab0eac75afb50e1db2a967587256f18b2d47a3651e33&amp;source=constructor"
+    width="500"
+    height="400"
+    frameborder="0"
+></iframe>
+
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/t4cF-11YoFc?si=tPo4lefmCsurjYwV"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+></iframe>
+
+<iframe
+    src="https://maritime-zone.com/"
+    width="500"
+    height="500"
+    frameborder="0"
+></iframe>
+</body>
+</html>

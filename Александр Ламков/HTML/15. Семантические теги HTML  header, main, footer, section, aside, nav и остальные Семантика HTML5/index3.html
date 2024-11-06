@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadcrumbs</title>
+    <style>
+        /* Стили для breadcrumbs */
+        .breadcrumbs {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .breadcrumbs li {
+            margin-right: 5px;
+        }
+
+        .breadcrumbs li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .breadcrumbs li::after {
+            content: ">";
+            margin-left: 5px;
+        }
+
+        .breadcrumbs li:last-child::after {
+            content: ""; /* Убираем стрелку для последнего элемента */
+        }
+
+        .breadcrumbs li:last-child a {
+            color: #6c757d; /* Цвет текущей страницы */
+            pointer-events: none; /* Отключаем ссылку на текущую страницу */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Пример использования nav для breadcrumbs -->
+<nav aria-label="Breadcrumb">
+    <ul class="breadcrumbs">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/catalog">Каталог</a></li>
+        <li><a href="/catalog/laptops">Ноутбуки</a></li>
+        <li><a href="/catalog/laptops/dell">Dell</a></li>
+        <li><a href="#">Модель XYZ</a></li> <!-- Текущая страница -->
+    </ul>
+</nav>
+
+</body>
+</html>
+<!--Объяснение:
+<nav aria-label="Breadcrumb">:
+Используется тег <nav> с атрибутом aria-label="Breadcrumb", который добавляет описание для вспомогательных технологий, таких как скринридеры.
+Это помогает пользователям с ограниченными возможностями понять, что это навигационный элемент "хлебные крошки".
+<ul class="breadcrumbs">:
+
+Тег <ul> создаёт ненумерованный список, который содержит элементы <li>. Это список всех шагов пути, ведущих к текущей странице.
+CSS для хлебных крошек:
+Каждый элемент списка отображается в одну строку благодаря display: flex.
+Стрелки между элементами добавлены с помощью CSS-псевдоэлемента ::after.
+Для последнего элемента списка стрелка не отображается, а ссылка отключается с помощью pointer-events: none.
+Результат:
+На странице отобразится цепочка навигационных ссылок, представляющих путь от главной страницы до текущей.
+Текущая страница не будет кликабельной, и она будет отличаться по цвету от остальных ссылок.-->

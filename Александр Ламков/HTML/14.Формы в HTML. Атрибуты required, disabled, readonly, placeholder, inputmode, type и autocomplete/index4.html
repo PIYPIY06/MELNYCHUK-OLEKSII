@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пример атрибута size</title>
+</head>
+<body>
+<h1>Пример использования атрибута size</h1>
+
+<!-- Пример атрибута size в теге input -->
+<p>Поле для ввода текста с атрибутом size (ширина в символах):</p>
+<input type="text" size="30" placeholder="Введите текст" />
+
+<!-- Пример атрибута size в теге select -->
+<p>
+    Выпадающий список с атрибутом size (количество отображаемых строк):
+</p>
+<select size="3">
+    <option value="1">Опция 1</option>
+    <option value="2">Опция 2</option>
+    <option value="3">Опция 3</option>
+    <option value="4">Опция 4</option>
+</select>
+
+<!-- Пример использования тега input с type="number" и атрибутом size -->
+<p>Поле для ввода чисел с атрибутом size:</p>
+<input
+    type="number"
+    size="5"
+    min="1"
+    max="100"
+    placeholder="Введите число"
+/>
+<!--Атрибут size в элементе <input type="text">:
+
+Атрибут size задает ширину поля ввода в количестве символов. В данном примере ширина поля установлена на 30 символов.
+Атрибут size в элементе <select>:
+
+Для элемента <select>, атрибут size определяет количество строк, которые отображаются в выпадающем списке. Здесь указано 3 строки, поэтому сразу будет видно 3 опции.
+
+Атрибут size в элементе <input type="number">:
+
+В элементе с типом number, атрибут size также задает ширину поля ввода в символах, хотя обычно в таких полях для ограничения ввода используют атрибуты min и max для задания диапазона значений.-->
+<h1>Пример использования атрибута size и multiple в select</h1>
+
+<!-- Пример select с multiple и size -->
+<p>
+    Выпадающий список с множественным выбором и атрибутом size
+    (количество видимых строк):
+</p>
+<select size="4" multiple>
+    <option value="1">Опция 1</option>
+    <option value="2">Опция 2</option>
+    <option value="3">Опция 3</option>
+    <option value="4">Опция 4</option>
+    <option value="5">Опция 5</option>
+    <option value="6">Опция 6</option>
+</select>
+</body>
+</html>

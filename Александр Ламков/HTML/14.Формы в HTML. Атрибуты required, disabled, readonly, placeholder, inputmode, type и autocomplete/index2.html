@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--Атрибут form дает возможность соединить элемент вне формы с формой через id и -->
+<!--дает возможность пользователю взаимодействовать с элементом как будто он внутри формы.-->
+<p>
+    <label for="email">Ваш-email:</label>
+    <input type="email" id="email" name="user-email" required form="user-info" />
+</p>
+<form action="#" id="user-info">
+    <p>
+        <label for="name3">Ваше имя:</label>
+        <input type="text" id="name3" name="user-name" required />
+    </p>
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>

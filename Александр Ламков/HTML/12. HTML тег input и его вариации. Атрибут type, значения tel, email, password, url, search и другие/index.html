@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Типы input</title>
+</head>
+<body>
+<form action="#" method="post">
+    <!--Тип для электронной почты-->
+    <p>
+        <label for="e-mail">Электронная почта:</label>
+        <input type="email" id="e-mail" name="user-email" />
+    </p>
+    <!--Тип для ввода url-адреса-->
+    <p>
+        <label for="user-profile"
+        >Ссылка на профиль пользователя:
+        </label>
+        <input type="url" id="user-profile" name="user-profile" />
+    </p>
+    <!--Тип для ввода телефонного номера-->
+    <p>
+        <label for="user-phone">Номер телефона: </label>
+        <input type="tel" id="user-phone" name="user-phone" />
+    </p>
+    <p>
+        <!--Тип для ввода поискового запроса-->
+    </p>
+
+    <p>
+        <label for="search-query">Введите поисковый запрос:</label>
+        <input type="search" id="search-query" name="search" />
+    </p>
+    <!--Тип для ввода числовых значений-->
+    <p>
+        <label for="user-age">Ваш возраст:</label>
+        <input type="number" id="user-age" name="user-age" />
+    </p>
+    <!--Тип для ввода паролей-->
+    <p>
+        <label for="user-password">Введите пароль:</label>
+        <input
+            type="password"
+            id="user-password"
+            name="user-password"
+        />
+    </p>
+    <!--Тип для ввода дат-->
+    <p>
+        <label for="fulldate"
+        >Введите дату в формате:день,месяц,год :</label
+        >
+        <input type="date" id="fulldate" name="fulldate" />
+    </p>
+    <!--Тип для ввода дат со временем -->
+    <p>
+        <label for="fulldate-with-time"
+        >Введите дату в формате:день,месяц,год,время:
+        </label>
+        <input
+            type="datetime-local"
+            id="fulldate-with-time"
+            name="fulldate-with-time"
+        />
+    </p>
+
+    <!--Тип для выбора месяца -->
+    <p>
+        <label for="month-date">Bыберите месяц: </label>
+        <input type="month" id="month-date" name="month-date" />
+    </p>
+
+    <!--Тип для выбора месяца -->
+    <p>
+        <label for="week-date">Bыберите неделю: </label>
+        <input type="week" id="week-date" name="week-date" />
+    </p>
+
+    <!--Тип для выбора точного времени -->
+    <p>
+        <label for="time">Bведите время: </label>
+        <input type="time" id="time" name="user-time" />
+    </p>
+
+    <!--Тип для выбора цвета -->
+    <p>
+        <label for="user-color">Bыберите цвет: </label>
+        <input type="color" id="user-color" name="user-color" />
+    </p>
+
+    <!--Тип для прикрепления файла -->
+    <p>
+        <label for="user-doc">Прикрепите Ваш документ: </label>
+        <input type="file" id="user-doc" name="user-doc" multiple />
+        <!--multiple аттрибут для прикрепления нескольких файлов -->
+    </p>
+
+    <!--Тип для чекбокса -->
+    <p>
+        <label for="agreement-total">Я согласен с правилами: </label>
+        <input
+            type="checkbox"
+            id="agreement-total"
+            name="agreement-total"
+            value="agreement-total"
+            checked
+        />
+        <!--        тут value="agreement" необходимо для распознания сервером выбора значения пользователем;
+            сhecked аттрибут отмечает чекбокс по умолчанию-->
+    </p>
+    <!--Радио тип для нескольких опций-->
+    <form>
+        <fieldset>
+            <legend>Ваш пол</legend>
+            <p>
+                <label for="male">Муж</label>
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                    checked
+                />
+            </p>
+            <p>
+                <label for="female">Жен</label>
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                />
+            </p>
+            <!--аттрибут name для male и
+    female должны быть одинаковы (name="gender"),
+    чтобы радиокнопки работали-->
+        </fieldset>
+    </form>
+
+    <!--Тип для вывода ползунка выбора значения range -->
+    <p>
+        <label for="user-volume">Bыберите громкость: </label>
+        <input
+            type="range"
+            id="user-volume"
+            name="user-volume"
+            min="1"
+            max="20"
+            step="3"
+        />
+    </p>
+    <p>
+        <button type="submit">Отправить</button>
+    </p>
+</form>
+</body>
+</html>

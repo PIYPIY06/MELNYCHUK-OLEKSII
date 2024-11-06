@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пример data-атрибута</title>
+    <script>
+        // Скрипт для отображения данных из атрибута data
+        function showProductInfo() {
+            var product = document.getElementById('product');
+            var productName = product.getAttribute('data-name');
+            var productPrice = product.getAttribute('data-price');
+
+            alert(
+                'Продукт: ' +
+                productName +
+                '\nЦена: ' +
+                productPrice +
+                ' руб.',
+            );
+        }
+    </script>
+</head>
+<body>
+<h1>Пример использования data-атрибутов</h1>
+
+<div id="product" data-name="Смартфон" data-price="30000">
+    Этот продукт имеет дополнительные данные.
+</div>
+
+<button onclick="showProductInfo()">
+    Показать информацию о продукте
+</button>
+</body>
+</html>
+
+<!-- data- атрибуты в HTML используются для хранения пользовательских данных в
+элементах, которые могут быть доступны через JavaScript.
+
+ Они позволяют добавлять произвольные данные к любым элементам,
+ что удобно для динамического взаимодействия с контентом страницы.
+ Формат атрибута следующий: data-имя, где имя — это произвольное имя для данных.
+
+    В этом примере: Элемент<div> содержит два пользовательских атрибута:
+    data-name="Смартфон" и data-price="30000". Когда пользователь нажимает
+    на кнопку, JavaScript-функция showProductInfo считывает значения этих
+    атрибутов и выводит их в виде всплывающего сообщения.
+
+    Таким образом, data- атрибуты
+    позволяют хранить данные прямо в HTML-коде и использовать их через
+    JavaScript, не нарушая семантику страницы. -->

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Формы</title>
+</head>
+<body>
+<div>
+    <!--Многострочное поле ввода-->
+    <label for="comment">Ваш комментарий:</label>
+    <textarea id="comment" name="user-comment">123</textarea>
+    <!--Если ввести текст между cкобками тега -- текст будет отображен по умолчанию -->
+</div>
+
+<form action="#">
+    <!--Выпадающий список-->
+    <label for="city">Ваш город</label>
+    <!--Атрибут multiple дает возможность выбрать несколько вариантов -->
+    <select name="user-city" id="city" multiple required>
+        <!--     Атрибут selected нужен для выбора опции по умолчанию,
+атрибут disabled не дает возможность выбрать опцию для отправки на сервер   -->
+        <option disabled value="" selected>---Не выбрано---</option>
+
+        <option value="moscow">Москва</option>
+        <option value="petersburg">Екатеринбург</option>
+
+        <option value="samara">Самара</option>
+    </select>
+    <button>Send</button>
+</form>
+
+<div>
+    <label for="office">Выберите офис:</label>
+    <select name="office" id="office">
+        <!--       optgroup для группировки option-->
+        <optgroup label="Центральный район">
+            <option value="center-1">Офис №1</option>
+            <option value="center-2">Офис №2</option>
+            <option value="center-3">Офис №3</option>
+        </optgroup>
+        <optgroup label="Южный район">
+            <option value="south-1">Офис №4</option>
+            <option value="south-2">Офис №5</option>
+            <option value="south-3">Офис №6</option>
+        </optgroup>
+    </select>
+</div>
+</body>
+</html>
