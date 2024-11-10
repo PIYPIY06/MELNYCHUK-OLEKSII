@@ -1,0 +1,34 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.box-1 {
+    background-color: #02c39a;
+    position: relative;
+    z-index: 100;
+}
+
+.inner-1 {
+    background-color: #0cdfee;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+
+.box-2 {
+    background-color: #7bf178;
+    position: relative;
+    z-index: 101;
+}
+
+.inner-2 {
+    background-color: #6930c3;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+/*В данном примере, несмотря на то что элементы .inner-1 и .inner-2 могут иметь своё позиционирование, порядок их 
+наложения относительно друг друга контролируется z-index их родительских элементов, .box-1 и .box-2. Поскольку .box-2 имеет 
+больший z-index, все его дочерние элементы, включая .inner-2, будут выше на экране по отношению ко всем элементам в .box-1.*/

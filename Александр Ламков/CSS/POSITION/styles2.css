@@ -1,0 +1,7 @@
+.sticky-box {
+    width: 100px;
+    height: 150px;
+    background-color: #e80a0a;
+    position: sticky;
+    top: 200px;
+}

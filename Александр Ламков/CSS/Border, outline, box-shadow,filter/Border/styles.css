@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #60a9ff;
+    border-width: 10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-block-style: solid;
+    border-inline-style: solid;
+    border-color: green red orange blue;
+}
+
+/*То же самое, что и набор свойств:
+  border-width:10px;
+  border-style:solid;
+  border-color:deepskyblue;
+  */
+

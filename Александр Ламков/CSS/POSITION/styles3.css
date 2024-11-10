@@ -1,0 +1,16 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    position: relative;
+}
+
+.inner {
+    background-color: lightcoral;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
+/*inset: 0 0 0 0; → Это сокращённая запись для свойств top, right, bottom, left, которая устанавливает все эти значения в 0.
+ Это означает, что элемент .inner будет растянут на всю ширину и высоту родительского блока .box.
+Таким образом, элемент с классом .inner будет полностью покрывать элемент .box.*/

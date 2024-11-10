@@ -1,0 +1,9 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 10px solid lightblue;
+    outline: 5px solid gold;
+    outline-offset: -24px;
+
+}

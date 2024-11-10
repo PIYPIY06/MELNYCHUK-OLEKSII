@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #02c39a;
+    border-radius: 50%;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #f40ee7;
+    border-radius: 30% 20% 30% 10%;
+    outline: #151b29 2px dotted;
+    outline-offset: -10px;
+}

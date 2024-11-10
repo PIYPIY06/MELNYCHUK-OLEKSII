@@ -1,0 +1,13 @@
+.box {
+    font-size: 30px;
+    color: transparent;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 20px dashed salmon;
+
+    background-image: url("../images/sunset.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}

@@ -1,0 +1,66 @@
+.box-1 {
+    background-color: rgb(255 0 0/ 0.5);
+    width: 150px;
+    height: 150px;
+}
+
+.box-2 {
+    width: 600px;
+    height: 338px;
+    background-image: url("../images/lizard.jpg");
+}
+
+.box-3 {
+    width: 1019px;
+    height: 700px;
+    background-image: url('../images/road.png'),
+    url('../images/car.png');
+}
+
+.box-4 {
+    width: 798px;
+    height: 190px;
+    background-image: url("../images/car.png");
+    background-repeat: repeat-x;
+}
+
+.box-5 {
+    width: 266px;
+    height: 570px;
+    background-image: url("../images/car.png");
+    background-repeat: repeat-y;
+}
+
+.box-6 {
+    background-color: hsl(60 100% 50% /0.3);
+    width: 590px;
+    height: 590px;
+    background-image: url("../images/apple.jpg");
+    background-repeat: space;
+}
+
+.box-7 {
+    background-color: hsl(240 100% 60% /0.4);
+    width: 650px;
+    height: 650px;
+    background-image: url("../images/apple.jpg");
+    background-repeat: round;
+}
+
+.box-8 {
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+    background-image: url("../images/FELV-cat-300x300.jpg");
+    background-position: 40% 30%;
+    background-repeat: no-repeat;
+}
+
+.box-9 {
+    background-color: gray;
+    width: 650px;
+    height: 400px;
+    background-image: url("../images/apple.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+}

@@ -1,0 +1,54 @@
+/*У всех тегов по умолчанию width и height имеют значение auto*/
+
+div,
+span {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 40px 0;
+}
+
+div {
+    width: 50%;
+    height: 200px;
+    background: blue;
+    display: block;
+}
+
+/*У div блочного элемента ширина и высота работает если задать фиксированную, */
+/*если не задана фикс ширина то элемент будет занимать всю ширину окна браузера высота:auto.*/
+
+span:nth-of-type(1) {
+    background: orange;
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+/*у span, строчного элемента ширина и высота равна размеру внутреннего контента,так как элемент строчный.*/
+span {
+    background: red;
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+}
+
+/*span по умолчанию строчный элемент, через свойство СSS inline-block мы сделали его строчно блочным,*/
+/*то есть элемент занимает ширину и высоту согласно размера внутреннего контента, но ему можно задать фикс. ширину и высоту,
+/*которая будет работать,но поведение как у строчного элемента, то есть ширина не будет занимать всю ширину окна браузера,
+как у блочного элемента*/
+
+.padding-block {
+    width: 200px;
+    height: 100px;
+    padding-block: 50px; /*внутренний отступ по вертикали*/
+    background: purple;
+}
+
+.padding-inline {
+    width: 200px;
+    height: 100px;
+    padding-inline: 50px; /*внутренний отступ по горизонтали*/
+    background: #007bff;
+}

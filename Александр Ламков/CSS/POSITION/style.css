@@ -1,0 +1,8 @@
+.box-fixed {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #3f87a6;
+}
